@@ -1,0 +1,302 @@
+#root {
+    max-width: 1280px;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 1rem;
+    text-align: center;
+    background-color: #1a1a1a;
+}
+
+
+@media (min-width: 576px) {
+    #root {
+        padding: 1rem;
+    }
+}
+
+@media (min-width: 768px) {
+    #root {
+        padding: 2rem;
+    }
+}
+
+@media (min-width: 992px) {
+    #root {
+        width: 100%;
+    }
+}
+
+.app {
+    width: 100%;
+    height: 100%;
+}
+
+.navigace {
+    width: 100%;
+}
+
+.menu-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+
+}
+
+.menu-list li {
+    width: 100%;
+}
+
+.menu-list a {
+    width: 100%;
+}
+
+.menu-list h1 {
+    width: 100%;
+    font-size: 1rem;
+}
+
+.music {
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+    .music {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+.genre {
+    width: 100%;
+    font-size: 1.5rem;
+    height: 20%;
+}
+
+@media (min-width: 768px) {
+    .genre {
+        width: 33%;
+        margin: 0.5rem
+    }
+}
+
+.genre audio {
+    width: 12rem;
+}
+
+#pop {
+    width: 100%;
+    background-color: aqua;
+}
+
+@media (min-width: 768px) {
+    #pop {
+        width: 30%;
+    }
+}
+
+@media (min-width: 1200px) {
+    #pop {
+        width: 20%;
+    }
+}
+
+
+#hip-hop {
+    width: 100%;
+    background-color: coral;
+}
+
+@media (min-width: 768px) {
+    #hip-hop {
+        width: 30%;
+    }
+}
+
+@media (min-width: 1200px) {
+    #hip-hop {
+        width: 20%;
+    }
+}
+
+
+#rock {
+    width: 100%;
+    background-color: mediumseagreen;
+}
+
+@media (min-width: 768px) {
+    #rock {
+        width: 30%;
+    }
+}
+
+@media (min-width: 1200px) {
+    #rock {
+        width: 20%;
+    }
+}
+
+
+#funk {
+    width: 100%;
+    background-color: beige;
+}
+
+@media (min-width: 768px) {
+    #funk {
+        width: 30%;
+    }
+}
+
+@media (min-width: 1200px) {
+    #funk {
+        width: 20%;
+    }
+}
+
+
+#blues {
+    width: 100%;
+    background-color: blue;
+}
+
+@media (min-width: 768px) {
+    #blues {
+        width: 30%;
+    }
+}
+
+@media (min-width: 1200px) {
+    #blues {
+        width: 20%;
+    }
+}
+
+
+#metal {
+    width: 100%;
+    background-color: brown;
+}
+
+@media (min-width: 768px) {
+    #metal {
+        width: 30%;
+    }
+}
+
+@media (min-width: 1200px) {
+    #metal {
+        width: 20%;
+    }
+}
+
+
+#mantra {
+    width: 100%;
+    background-color: darkorange;
+}
+
+@media (min-width: 768px) {
+    #mantra {
+        width: 30%;
+    }
+}
+
+@media (min-width: 1200px) {
+    #mantra {
+        width: 20%;
+    }
+}
+
+
+#klasika {
+    width: 100%;
+    background-color: darkred;
+}
+
+@media (min-width: 768px) {
+    #klasika {
+        width: 30%;
+    }
+}
+
+@media (min-width: 1200px) {
+    #klasika {
+        width: 20%;
+    }
+}
+
+
+#dechovka {
+    width: 100%;
+    background-color: darkslategrey;
+}
+
+@media (min-width: 768px) {
+    #dechovka {
+        width: 30%;
+    }
+}
+
+@media (min-width: 1200px) {
+    #dechovka {
+        width: 20%;
+    }
+}
+
+
+#jazz {
+    width: 100%;
+    background-color: goldenrod;
+}
+
+@media (min-width: 768px) {
+    #jazz {
+        width: 30%;
+    }
+}
+
+@media (min-width: 1200px) {
+    #jazz {
+        width: 20%;
+    }
+}
+
+
+#techno {
+    width: 100%;
+    background-color: hotpink;
+}
+
+@media (min-width: 768px) {
+    #techno {
+        width: 30%;
+    }
+}
+
+@media (min-width: 1200px) {
+    #techno {
+        width: 20%;
+    }
+}
+
+
+#house {
+    width: 100%;
+    background-color: greenyellow;
+}
+
+@media (min-width: 768px) {
+    #house {
+        width: 30%;
+    }
+}
+
+@media (min-width: 1200px) {
+    #house {
+        width: 20%;
+    }
+}
