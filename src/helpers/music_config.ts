@@ -1,12 +1,12 @@
 export const music = [
   {
     id: "pop",
-    src: "/media/Rich.mp3",
+    src: "/media/Billie.mp3",
     header: "POP",
   },
   {
     id: "hipHop",
-    src: "/media/Billie.mp3",
+    src: "/media/Rich.mp3",
     header: "HIPHOP",
   },
   {
@@ -15,68 +15,43 @@ export const music = [
     header: "HOUSE",
   },
   {
-    id: "techno",
-    src: "/media/Dua%20Lipa%20-%20New%20Rules%20(Official%20Music%20Video).mp3",
-    header: "TECHNO",
-  },
-  {
-    id: "country",
-    src: "/media/Dua%20Lipa%20-%20New%20Rules%20(Official%20Music%20Video).mp3",
-    header: "COUNTRY",
-  },
-  {
     id: "blues",
-    src: "/media/Dua%20Lipa%20-%20New%20Rules%20(Official%20Music%20Video).mp3",
+    src: "/media/.mp3",
     header: "BLUES",
   },
   {
     id: "jazz",
-    src: "/media/Dua%20Lipa%20-%20New%20Rules%20(Official%20Music%20Video).mp3",
+    src: "/media/Havana.mp3",
     header: "JAZZ",
   },
   {
     id: "mantra",
-    src: "/media/Dua%20Lipa%20-%20New%20Rules%20(Official%20Music%20Video).mp3",
+    src: "/media/Om.mp3",
     header: "MANTRA",
   },
   {
-    id: "klasika",
-    src: "/media/Dua%20Lipa%20-%20New%20Rules%20(Official%20Music%20Video).mp3",
-    header: "KLASIKA",
-  },
-  {
     id: "funk",
-    src: "/media/Dua%20Lipa%20-%20New%20Rules%20(Official%20Music%20Video).mp3",
+    src: "/media/Funk.mp3",
     header: "FUNK",
   },
   {
     id: "rnb",
-    src: "/media/Dua%20Lipa%20-%20New%20Rules%20(Official%20Music%20Video).mp3",
+    src: "/media/BEP.mp3",
     header: "RNB",
   },
   {
-    id: "metal",
-    src: "/media/Dua%20Lipa%20-%20New%20Rules%20(Official%20Music%20Video).mp3",
-    header: "METAL",
-  },
-  {
-    id: "folklor",
-    src: "/media/Dua%20Lipa%20-%20New%20Rules%20(Official%20Music%20Video).mp3",
-    header: "FOLKLOR",
-  },
-  {
     id: "swing",
-    src: "/media/Dua%20Lipa%20-%20New%20Rules%20(Official%20Music%20Video).mp3",
+    src: "/media/Swing.mp3",
     header: "SWING",
   },
   {
-    id: "drumandbass",
-    src: "/media/Dua%20Lipa%20-%20New%20Rules%20(Official%20Music%20Video).mp3",
-    header: "DRUMANDBASS",
+    id: "dnb",
+    src: "/media/DnB.mp3",
+    header: "DNB",
   },
   {
     id: "reggae",
-    src: "/media/Dua%20Lipa%20-%20New%20Rules%20(Official%20Music%20Video).mp3",
+    src: "/media/Reggae.mp3",
     header: "REGGAE",
   },
 ];

@@ -5,7 +5,7 @@
     margin: 0 auto;
     padding: 1rem;
     text-align: center;
-    background-color: #1a1a1a;
+    background-color: darkslategray;
 }
 
 
@@ -77,7 +77,7 @@
 
 @media (min-width: 768px) {
     .genre {
-        width: 33%;
+        width: 30%;
         margin: 0.5rem
     }
 }
@@ -184,19 +184,22 @@
 @media (min-width: 768px) {
     #metal {
         width: 30%;
+        background-color: sandybrown;
     }
 }
 
 @media (min-width: 1200px) {
     #metal {
         width: 20%;
+        background-color: sandybrown;
     }
 }
 
 
 #mantra {
     width: 100%;
-    background-color: darkorange;
+    background-color: #976527;
+
 }
 
 @media (min-width: 768px) {
