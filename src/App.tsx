@@ -124,13 +124,11 @@ const App = () => {
         <article className={"genre"} id={"jazz"}>
           <h2>pop</h2>
           <audio controls>
-            <source
-              src="/media/bbno$%20&%20Rich%20Brian%20-%20edamame%20(Official%20Video).mp3"
-              type="audio/mpeg"
-            />
+            <source src="/media/Rich.mp3" type="audio/mpeg" />
             Your browser does not support the audio tag.
           </audio>
         </article>
+        git
         <article className={"genre"} id={"techno"}>
           <h2>hip-hop</h2>
           <audio controls>
