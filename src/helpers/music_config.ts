@@ -59,4 +59,24 @@ export const music = [
     src: "/media/Dua%20Lipa%20-%20New%20Rules%20(Official%20Music%20Video).mp3",
     header: "METAL",
   },
+  {
+    id: "folklor",
+    src: "/media/Dua%20Lipa%20-%20New%20Rules%20(Official%20Music%20Video).mp3",
+    header: "FOLKLOR",
+  },
+  {
+    id: "swing",
+    src: "/media/Dua%20Lipa%20-%20New%20Rules%20(Official%20Music%20Video).mp3",
+    header: "SWING",
+  },
+  {
+    id: "drumandbass",
+    src: "/media/Dua%20Lipa%20-%20New%20Rules%20(Official%20Music%20Video).mp3",
+    header: "DRUMANDBASS",
+  },
+  {
+    id: "reggae",
+    src: "/media/Dua%20Lipa%20-%20New%20Rules%20(Official%20Music%20Video).mp3",
+    header: "REGGAE",
+  },
 ];
