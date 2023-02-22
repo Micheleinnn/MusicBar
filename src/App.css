@@ -48,10 +48,14 @@
     justify-content: space-evenly;
     width: 100%;
 
+
 }
 
 .menu-list li {
     width: 100%;
+    border: 2px solid darkorange;
+    margin: 0.5rem;
+    border-radius: 10px;
 }
 
 .menu-list a {
@@ -61,7 +65,9 @@
 
 .menu-list h1 {
     width: 100%;
-    font-size: 1rem;
+    font-size: 2rem;
+    color: darkorange;
+
 }
 
 .music {
@@ -79,6 +85,7 @@
     width: 100%;
     font-size: 1.5rem;
     height: 20%;
+    border-radius: 10px;
 }
 
 @media (min-width: 768px) {
@@ -220,6 +227,7 @@
 @media (min-width: 1200px) {
     #mantra {
         width: 20%;
+        background-color: darkorange;
     }
 }
 
@@ -256,6 +264,7 @@
 @media (min-width: 1200px) {
     #jazz {
         width: 20%;
+        background-color: darkorange;
     }
 }
 
@@ -295,6 +304,7 @@
 @media (min-width: 1200px) {
     #swing {
         width: 20%;
+        background-color: darkgoldenrod;
     }
 }
 

@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./assets/App.css";
+import "./App.css";
 import Pisnicka from "./components/music/Pisnicka";
 import { music } from "./helpers/music_config";
 import Picture from "./components/pictures/Picture";
