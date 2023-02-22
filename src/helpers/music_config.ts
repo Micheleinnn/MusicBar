@@ -11,12 +11,12 @@ export const music = [
   },
   {
     id: "house",
-    src: "/media/Lipa.mp3",
+    src: "/media/house.mp3",
     header: "HOUSE",
   },
   {
     id: "blues",
-    src: "/media/.mp3",
+    src: "/media/blues.mp3",
     header: "BLUES",
   },
   {
@@ -31,27 +31,32 @@ export const music = [
   },
   {
     id: "funk",
-    src: "/media/Funk.mp3",
+    src: "/media/funk.mp3",
     header: "FUNK",
   },
   {
     id: "rnb",
-    src: "/media/BEP.mp3",
+    src: "/media/black.mp3",
     header: "RNB",
   },
   {
     id: "swing",
-    src: "/media/Swing.mp3",
+    src: "/media/swing.mp3",
     header: "SWING",
   },
   {
     id: "dnb",
-    src: "/media/DnB.mp3",
+    src: "/media/dnb.mp3",
     header: "DNB",
   },
   {
     id: "reggae",
-    src: "/media/Reggae.mp3",
+    src: "/media/zona.mp3",
     header: "REGGAE",
+  },
+  {
+    id: "techno",
+    src: "/media/techno.mp3",
+    header: "TECHNO",
   },
 ];

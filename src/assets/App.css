@@ -5,7 +5,12 @@
     margin: 0 auto;
     padding: 1rem;
     text-align: center;
-    background-color: darkslategray;
+    background-color: #450b77;
+}
+.pictures {
+    width: 100%;
+    font-size: 1rem;
+    padding: 1rem;
 }
 
 
@@ -51,6 +56,7 @@
 
 .menu-list a {
     width: 100%;
+
 }
 
 .menu-list h1 {
@@ -88,7 +94,7 @@
 
 #pop {
     width: 100%;
-    background-color: aqua;
+    background-color: darkgoldenrod;
 }
 
 @media (min-width: 768px) {
@@ -104,45 +110,30 @@
 }
 
 
-#hip-hop {
+#hipHop {
     width: 100%;
-    background-color: coral;
+    background-color: darkgoldenrod;
 }
 
 @media (min-width: 768px) {
-    #hip-hop {
+    #hipHop {
         width: 30%;
     }
 }
 
 @media (min-width: 1200px) {
-    #hip-hop {
+    #hipHop {
         width: 20%;
     }
 }
 
 
-#rock {
-    width: 100%;
-    background-color: mediumseagreen;
-}
 
-@media (min-width: 768px) {
-    #rock {
-        width: 30%;
-    }
-}
-
-@media (min-width: 1200px) {
-    #rock {
-        width: 20%;
-    }
-}
 
 
 #funk {
     width: 100%;
-    background-color: beige;
+    background-color: darkorange;
 }
 
 @media (min-width: 768px) {
@@ -156,11 +147,48 @@
         width: 20%;
     }
 }
+
+
+#reggae {
+    width: 100%;
+    background-color: darkgoldenrod;
+}
+
+@media (min-width: 768px) {
+    #reggae {
+        width: 30%;
+    }
+}
+
+@media (min-width: 1200px) {
+    #reggae {
+        width: 20%;
+    }
+}
+
+
+#dnb {
+    width: 100%;
+    background-color: darkgoldenrod;
+}
+
+@media (min-width: 768px) {
+    #dnb {
+        width: 30%;
+    }
+}
+
+@media (min-width: 1200px) {
+    #dnb {
+        width: 20%;
+    }
+}
+
 
 
 #blues {
     width: 100%;
-    background-color: blue;
+    background-color: darkgoldenrod;
 }
 
 @media (min-width: 768px) {
@@ -175,30 +203,11 @@
     }
 }
 
-
-#metal {
-    width: 100%;
-    background-color: brown;
-}
-
-@media (min-width: 768px) {
-    #metal {
-        width: 30%;
-        background-color: sandybrown;
-    }
-}
-
-@media (min-width: 1200px) {
-    #metal {
-        width: 20%;
-        background-color: sandybrown;
-    }
-}
 
 
 #mantra {
     width: 100%;
-    background-color: #976527;
+    background-color: darkgoldenrod;
 
 }
 
@@ -215,37 +224,19 @@
 }
 
 
-#klasika {
+#rnb {
     width: 100%;
-    background-color: darkred;
+    background-color: darkorange;
 }
 
 @media (min-width: 768px) {
-    #klasika {
+    #rnb {
         width: 30%;
     }
 }
 
 @media (min-width: 1200px) {
-    #klasika {
-        width: 20%;
-    }
-}
-
-
-#dechovka {
-    width: 100%;
-    background-color: darkslategrey;
-}
-
-@media (min-width: 768px) {
-    #dechovka {
-        width: 30%;
-    }
-}
-
-@media (min-width: 1200px) {
-    #dechovka {
+    #rnb {
         width: 20%;
     }
 }
@@ -253,7 +244,7 @@
 
 #jazz {
     width: 100%;
-    background-color: goldenrod;
+    background-color: darkgoldenrod;
 }
 
 @media (min-width: 768px) {
@@ -267,11 +258,13 @@
         width: 20%;
     }
 }
+
+
 
 
 #techno {
     width: 100%;
-    background-color: hotpink;
+    background-color: darkgoldenrod;
 }
 
 @media (min-width: 768px) {
@@ -287,9 +280,29 @@
 }
 
 
+
+#swing {
+    width: 100%;
+    background-color: darkorange;
+}
+
+@media (min-width: 768px) {
+    #swing {
+        width: 30%;
+    }
+}
+
+@media (min-width: 1200px) {
+    #swing {
+        width: 20%;
+    }
+}
+
+
+
 #house {
     width: 100%;
-    background-color: greenyellow;
+    background-color: darkgoldenrod;
 }
 
 @media (min-width: 768px) {

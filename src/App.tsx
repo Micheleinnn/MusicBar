@@ -1,42 +1,50 @@
-import React, {useState} from "react";
-import tabak from "./assets/tabak.jpg";
-
+import React, { useState } from "react";
 import "./assets/App.css";
-import ImageLink from "./components/ImageLink";
-
-import Audio from "./components/Audio";
-import {music} from "./helpers/music_config";
+import Pisnicka from "./components/music/Pisnicka";
+import { music } from "./helpers/music_config";
+import Picture from "./components/pictures/Picture";
+import { pole_obrazku } from "./helpers/picture_config";
 
 const App = () => {
-    return (
-        <main className="app">
-            <nav className={"navigace"}>
-                <ul className={"menu-list"}>
-                    <li>
-                        <a href={"#pop"}>
-                            <h1>Pop</h1>
-                        </a>
-                    </li>
-                    <li>
-                        <a href={"#hip-hop"}>
-                            <h1>HipHop</h1>
-                        </a>
-                    </li>
-                    <li>
-                        <a href={"#rock"}>
-                            <h1>Rock</h1>
-                        </a>
-                    </li>
-                </ul>
-            </nav>
+  return (
+    <main className="app">
+      <nav className={"navigace"}>
+        <ul className={"menu-list"}>
+          <li>
+            <a href={"#music"}>
+              <h1>Names of songs</h1>
+            </a>
+          </li>
+          <li>
+            <a href={"#history"}>
+              <h1>History</h1>
+            </a>
+          </li>
+          <li>
+            <a href={"#obrazky"}>
+              <h1>Pictures</h1>
+            </a>
+          </li>
+        </ul>
+      </nav>
 
-        <section className={"music"}>
+      <section className={"music"} id={"music"}>
         {music.map((genre) => (
-          <Audio
-            src={genre.src}
-            header={genre.header}
-            id={genre.id}
+          <Pisnicka
+            zdrojova_url={genre.src}
+            nazev_zanru={genre.header}
+            id_stylu={genre.id}
             key={genre.id}
+          />
+        ))}
+      </section>
+
+      <section className={"pictures"} id={"obrazky"}>
+        {pole_obrazku.map((obrazek) => (
+          <Picture
+            zdrojova_url={obrazek.zdrojova_url}
+            nazev_obrazku={obrazek.nazev_obrazku}
+            key={obrazek.zdrojova_url}
           />
         ))}
       </section>
