@@ -1,26 +1,26 @@
 export const pole_obrazku = [
   {
-    zdrojova_url: "/obrazek/billie.jpg",
+    zdrojova_url: "/pictures/billie.jpg",
     nazev_obrazku: "zpevacka Billie Eilish",
   },
 
   {
-    zdrojova_url: "/obrazek/bbno.jpg",
+    zdrojova_url: "/pictures/bbno.jpg",
     nazev_obrazku: "zpevak",
   },
 
   {
-    zdrojova_url: "/obrazek/bep.jfif",
+    zdrojova_url: "/pictures/bep.jfif",
     nazev_obrazku: "hudebni skupina",
   },
 
   {
-    zdrojova_url: "/obrazek/blinkjfif.jfif",
+    zdrojova_url: "/pictures/blinkjfif.jfif",
     nazev_obrazku: "punkova hudebni skupina",
   },
 
   {
-    zdrojova_url: "/obrazek/blues.jfif",
+    zdrojova_url: "/pictures/blues.jfif",
     nazev_obrazku: "hudebni skupina na podiu",
   },
 ];

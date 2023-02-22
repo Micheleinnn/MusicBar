@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./assets/App.css";
+import "./App.css";
 import Pisnicka from "./components/music/Pisnicka";
 import { music } from "./helpers/music_config";
 import Picture from "./components/pictures/Picture";
@@ -27,7 +27,7 @@ const App = () => {
           </li>
         </ul>
       </nav>
-
+      <h1>Names of songs</h1>
       <section className={"music"} id={"music"}>
         {music.map((genre) => (
           <Pisnicka
