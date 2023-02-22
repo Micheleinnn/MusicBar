@@ -44,7 +44,7 @@
 .menu-list {
     list-style: none;
     padding: 0;
-    display: flex;
+    display: inline-flex;
     justify-content: space-evenly;
     width: 100%;
 
@@ -90,7 +90,7 @@
 
 @media (min-width: 768px) {
     .genre {
-        width: 30%;
+        /*width: calc(33% - 0.5rem);*/
         margin: 0.5rem
     }
 }
