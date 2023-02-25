@@ -5,10 +5,13 @@
     margin: 0 auto;
     padding: 1rem;
     text-align: center;
-    background-color: #450b77;
+    background-color: #1b4161;
+
 }
+
 .pictures {
     width: 100%;
+    flex: 1;
     font-size: 1rem;
     padding: 1rem;
 }
@@ -34,11 +37,14 @@
 
 .app {
     width: 100%;
+    flex: 1;
     height: 100%;
 }
 
 .navigace {
     width: 100%;
+    flex: 1;
+    margin-bottom: 3rem
 }
 
 .menu-list {
@@ -58,20 +64,47 @@
     border-radius: 10px;
 }
 
+
+.menu-list li {
+    width: 100%;
+    flex: 1;
+    border: 2px solid darkorange;
+    border-radius: 10px;
+    margin: 0.5rem;
+    height: 6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(10, 22, 40, 0.69);
+    font: italic small-caps bold 44px Georgia, sans-serif;
+}
+
 .menu-list a {
     width: 100%;
+    flex: 1;
+
 
 }
+
 
 .menu-list h1 {
     width: 100%;
     font-size: 2rem;
     color: darkorange;
+}
 
+
+.menu-list h1 {
+    width: 100%;
+    flex: 1;
+    font-size: 2rem;
+    color: darkorange;
 }
 
 .music {
     width: 100%;
+    flex: 1;
+    font: italic small-caps bold 44px Georgia, sans-serif;
 }
 
 @media (min-width: 768px) {
@@ -83,6 +116,7 @@
 
 .genre {
     width: 100%;
+    flex: 1;
     font-size: 1.5rem;
     height: 20%;
     border-radius: 10px;
@@ -91,6 +125,7 @@
 @media (min-width: 768px) {
     .genre {
         /*width: calc(33% - 0.5rem);*/
+        /* width: 30%; */
         margin: 0.5rem
     }
 }
@@ -101,228 +136,306 @@
 
 #pop {
     width: 100%;
+    flex: 1;
     background-color: darkgoldenrod;
 }
 
 @media (min-width: 768px) {
     #pop {
-        width: 30%;
+        /* width: 30%; */
     }
 }
 
 @media (min-width: 1200px) {
     #pop {
-        width: 20%;
+        /* width: 20%; */
     }
 }
 
 
 #hipHop {
     width: 100%;
+    flex: 1;
     background-color: darkgoldenrod;
 }
 
 @media (min-width: 768px) {
     #hipHop {
-        width: 30%;
+        /* width: 30%; */
     }
 }
 
 @media (min-width: 1200px) {
     #hipHop {
-        width: 20%;
+        /* width: 20%; */
     }
 }
 
 
-
-
-
 #funk {
     width: 100%;
+    flex: 1;
     background-color: darkorange;
 }
 
 @media (min-width: 768px) {
     #funk {
-        width: 30%;
+        /* width: 30%; */
     }
 }
 
 @media (min-width: 1200px) {
     #funk {
-        width: 20%;
+        /* width: 20%; */
     }
 }
 
 
 #reggae {
     width: 100%;
+    flex: 1;
     background-color: darkgoldenrod;
 }
 
 @media (min-width: 768px) {
     #reggae {
-        width: 30%;
+        /* width: 30%; */
     }
 }
 
 @media (min-width: 1200px) {
     #reggae {
-        width: 20%;
+        /* width: 20%; */
+    }
+}
+
+@media (min-width: 1312px) {
+    #reggae {
+        background-color: darkorange;
     }
 }
 
 
 #dnb {
     width: 100%;
+    flex: 1;
     background-color: darkgoldenrod;
 }
 
 @media (min-width: 768px) {
     #dnb {
-        width: 30%;
+        /* width: 30%; */
+    }
+}
+
+@media (min-width: 1104px) {
+    #dnb {
+        background-color: darkorange;
     }
 }
 
 @media (min-width: 1200px) {
     #dnb {
-        width: 20%;
+        /* width: 20%; */
     }
 }
-
 
 
 #blues {
     width: 100%;
+    flex: 1;
     background-color: darkgoldenrod;
 }
 
 @media (min-width: 768px) {
     #blues {
-        width: 30%;
+        /* width: 30%; */
     }
 }
 
 @media (min-width: 1200px) {
     #blues {
-        width: 20%;
+        /* width: 20%; */
     }
 }
-
 
 
 #mantra {
     width: 100%;
+    flex: 1;
     background-color: darkgoldenrod;
 
 }
 
 @media (min-width: 768px) {
     #mantra {
-        width: 30%;
+        /* width: 30%; */
     }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 896px) {
     #mantra {
-        width: 20%;
         background-color: darkorange;
     }
 }
 
 
+@media (min-width: 1200px) {
+    #mantra {
+        width: 20%;
+        background-color: darkorange;
+        /* width: 20%; */
+    }
+}
+
+
+@media (min-width: 1312px) {
+    #mantra {
+        background-color: darkgoldenrod;
+    }
+}
+
 #rnb {
     width: 100%;
+    flex: 1;
     background-color: darkorange;
 }
 
 @media (min-width: 768px) {
     #rnb {
-        width: 30%;
+        /* width: 30%; */
     }
 }
 
 @media (min-width: 1200px) {
     #rnb {
-        width: 20%;
+        /* width: 20%; */
     }
 }
 
 
 #jazz {
     width: 100%;
+    flex: 1;
     background-color: darkgoldenrod;
 }
 
 @media (min-width: 768px) {
     #jazz {
-        width: 30%;
+        /* width: 30%; */
+    }
+}
+
+@media (min-width: 896px) {
+    #jazz {
+        background-color: darkorange;
+    }
+}
+
+@media (min-width: 1104px) {
+    #jazz {
+        background-color: darkgoldenrod;
+    }
+}
+
+@media (min-width: 1199px) {
+    #jazz {
+        background-color: darkgoldenrod;
     }
 }
 
 @media (min-width: 1200px) {
     #jazz {
         width: 20%;
+        background-color: darkgoldenrod;
+        /* width: 20%; */
+    }
+}
+
+
+#techno {
+    width: 100%;
+    flex: 1;
+    background-color: darkgoldenrod;
+}
+
+@media (min-width: 768px) {
+    #techno {
+        /* width: 30%; */
+    }
+}
+
+@media (min-width: 1200px) {
+    #techno {
+        /* width: 20%; */
+    }
+}
+
+
+@media (min-width: 1312px) {
+    #techno {
         background-color: darkorange;
     }
 }
 
 
-
-
-#techno {
-    width: 100%;
-    background-color: darkgoldenrod;
-}
-
-@media (min-width: 768px) {
-    #techno {
-        width: 30%;
-    }
-}
-
-@media (min-width: 1200px) {
-    #techno {
-        width: 20%;
-    }
-}
-
-
-
 #swing {
     width: 100%;
+    flex: 1;
     background-color: darkorange;
 }
 
 @media (min-width: 768px) {
     #swing {
-        width: 30%;
+        /* width: 30%; */
+    }
+}
+
+@media (min-width: 896px) {
+    #swing {
+        background-color: darkgoldenrod;
+    }
+}
+
+@media (min-width: 1104px) {
+    #swing {
+        background-color: darkorange;
     }
 }
 
 @media (min-width: 1200px) {
     #swing {
         width: 20%;
-        background-color: darkgoldenrod;
+        background-color: darkorange;
+        /* width: 20%; */
     }
 }
 
 
-
 #house {
     width: 100%;
+    flex: 1;
     background-color: darkgoldenrod;
 }
 
 @media (min-width: 768px) {
     #house {
-        width: 30%;
+        /* width: 30%; */
     }
 }
 
 @media (min-width: 1200px) {
     #house {
-        width: 20%;
+        /* width: 20%; */
     }
+}
+
+.history { }
+
+.rings {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

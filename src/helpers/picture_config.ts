@@ -10,12 +10,12 @@ export const pole_obrazku = [
   },
 
   {
-    zdrojova_url: "/pictures/bep.jfif",
+    zdrojova_url: "/pictures/jazz.jpeg",
     nazev_obrazku: "hudebni skupina",
   },
 
   {
-    zdrojova_url: "/pictures/blinkjfif.jfif",
+    zdrojova_url: "/pictures/bep.jfif",
     nazev_obrazku: "punkova hudebni skupina",
   },
 
