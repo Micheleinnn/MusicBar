@@ -32,9 +32,10 @@ body {
 }
 
 h1 {
-  font-size: 3.2em;
+position: relative;
   line-height: 1.1;
   color: darkorange;
+  font: italic small-caps bold 48px Georgia, sans-serif;
 }
 
 
@@ -69,6 +70,36 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+
+
+
+
+  .heart {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+  }
+
+  .heart span {
+    width: 50px;
+    height: 80px;
+    background: red;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+  }
+
+  .heart span:nth-child(1) {
+    transform: rotate(-45deg) translateX(20px)
+  }
+
+  .heart span:nth-child(2) {
+    transform: rotate(45deg) translateX(-20px)
+  }
 }
+
+
+
 
 

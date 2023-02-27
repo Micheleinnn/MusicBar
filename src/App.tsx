@@ -7,7 +7,6 @@ import {pole_obrazku} from "./helpers/picture_config";
 import {rings_configurate} from "./helpers/rings_configurate";
 import Ring from "./components/rings/Ring";
 
-
 const App = () => {
     return (
         <main className="app">
@@ -60,7 +59,9 @@ const App = () => {
 
             <h2>Biography</h2>
             <section className={"history"} id={"history"}>
-                <p> Billie Eilish Pirate Baird O'Connell is an American musician, singer and actress from Los Angeles.
+
+                <p><cite> Billie Eilish Pirate Baird O'Connell </cite> is an American musician, singer and actress from
+                    Los Angeles.
                     She performed hit songs such as "Bad Guy" and "No Time to Die," which was used in the James Bond
                     film of the same name. She provided ADR for Ramona and Beezus, Diary of a Wimpy Kid: Rodrick Rules
                     and X-Men: Apocalypse.</p>
@@ -98,8 +99,13 @@ const App = () => {
                     Gray. Hill left the band while producing the album, but was still featured on the album tracks for
                     "Hot" and "Tell Your Mama Come" as well as in the video for "Weekends".
                 </p>
-
             </section>
+
+            <div className="heart">
+                <span></span>
+                <span></span>
+            </div>
+
 
 
             <section
@@ -112,7 +118,8 @@ const App = () => {
                 ))}
             </section>
         </main>
-    );
+    )
+        ;
 };
 
 export default App;
