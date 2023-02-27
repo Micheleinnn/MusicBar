@@ -39,10 +39,10 @@
 }
 .ring:nth-child(1) {
     position: absolute;
-    top: 60.66px;
+    top: 66.66px;
     animation: animate1 3s linear infinite;
     animation-delay: -4s;
-    border-left: 4px solid #f8ee05;
+    border-left: 4px solid transparent;
     border-top: 4px solid transparent;
 
 }
@@ -57,7 +57,7 @@
     width: 15px;
     height: 15px;
     background: #faf004;
-    box-shadow: 0 0 0 5px #fff500, 0 0 0 10px #faf22c, 0 0 0 15px #f5e78e, 0 0 0 15px #fff500, 0 0 0 20px #ad4242
+    box-shadow: 0 0 0 5px #fff500, 0 0 0 10px #faf22c, 0 0 0 15px #f5e78e, 0 0 0 15px #fff500
 
 }
 @keyframes animate2 {
@@ -71,10 +71,10 @@
     }
 }
 .ring:nth-child(2) {
-    animation: animate2 4s linear infinite;
-    border-left: 4px solid deeppink;
+    animation: animate2 3s linear infinite;
+    border-left: 4px solid transparent;
     animation-delay: -3s;
-    top: 3.66px;
+    top: 66.66px;
     border-top: 4px solid transparent;
 }
 
@@ -83,13 +83,14 @@
     content: '';
     position: absolute;
     top: initial;
+    bottom: 12px;
     right: 12px;
-    left: 12px;
+    left:12px;
     border-radius: 50%;
     width: 15px;
     height: 15px;
-    background: #fa20d6;
-    box-shadow: 0 0 0 5px #fd3bdd, 0 0 0 10px #f84cdb, 0 0 0 15px #f557db, 0 0 0 15px #fa98ea, 0 0 0 20px #ad4242
+    background: #fdb311;
+    box-shadow: 0 0 0 5px #fab829, 0 0 0 10px #eebb4d, 0 0 0 15px #efd7a2, 0 0 0 15px #eabf61
 
 }
 
@@ -106,11 +107,11 @@
 }
 .ring:nth-child(3) {
     position: absolute;
-    top: -66.66px;
+    top: 66.66px;
     animation: animate3 4s linear infinite;
     animation-delay: -3s;
-    border-left: 4px solid #19F50AFF;
-    border-top: 4px solid transparent;
+    border-left: 12px solid transparent;
+    border-top: 12px solid transparent;
 
 }
 .ring:nth-child(3)::before
@@ -124,7 +125,7 @@
     border-radius: 50%;
     width: 15px;
     height: 15px;
-    background: #19f50a;
-    box-shadow: 0 0 0 5px #56ec4b, 0 0 0 10px #74e86d, 0 0 0 15px #9be895, 0 0 0 15px #60e157, 0 0 0 20px #ad4242
+    background: #cf0ffa;
+    box-shadow: 0 0 0 5px #c72bea, 0 0 0 10px #d567ee, 0 0 0 15px #d881ec, 0 0 0 15px #cf37f1
 
 }

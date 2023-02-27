@@ -1,3 +1,18 @@
 .big-button {
-    font-size: 60px;
+    border-radius: 8px;
+    border: 10px solid transparent;
+    padding: 0.6em 1.2em;
+    font: italic small-caps bold 28px Georgia, sans-serif;
+    background-color: #fd7f19;
+    cursor: pointer;
+    transition: border-color 0.25s;
+}
+
+.big-button:hover {
+    border-color: #646cff;
+}
+
+.big-button:focus,
+.big-button:focus-visible {
+    outline: 4px auto -webkit-focus-ring-color;
 }

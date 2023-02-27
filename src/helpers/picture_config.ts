@@ -18,9 +18,4 @@ export const pole_obrazku = [
     zdrojova_url: "/pictures/bep.jfif",
     nazev_obrazku: "punkova hudebni skupina",
   },
-
-  {
-    zdrojova_url: "/pictures/blues.jfif",
-    nazev_obrazku: "hudebni skupina na podiu",
-  },
 ];

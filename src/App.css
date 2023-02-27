@@ -58,6 +58,9 @@
 }
 
 .menu-list li {
+    background-image: url("../public/pozadi/R.jfif");
+    background-size: cover;
+    background-repeat:no-repeat ;
     width: 100%;
     border: 2px solid darkorange;
     margin: 0.5rem;
@@ -89,14 +92,6 @@
 
 .menu-list h1 {
     width: 100%;
-    font-size: 2rem;
-    color: darkorange;
-}
-
-
-.menu-list h1 {
-    width: 100%;
-    flex: 1;
     font-size: 2rem;
     color: darkorange;
 }
@@ -430,12 +425,7 @@
     }
 }
 
-.history {
-    border: 1px solid blue;
-    padding: 0.6em 1.2em;
-    background-color: #1a1a1a;
-    font: italic small-caps bold 12px Georgia, sans-serif;
-}
+
 
 .rings {
     position: relative;
