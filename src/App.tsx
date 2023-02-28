@@ -17,17 +17,17 @@ const App = () => {
         <ul className={"menu-list"}>
           <li>
             <a href={"#music"}>
-              <h1>Music.</h1>
+              <h1>🎧</h1>
             </a>
           </li>
           <li>
             <a href={"#history"}>
-              <h1>History</h1>
+              <h1>📃</h1>
             </a>
           </li>
           <li>
-            <a href={"#obrazky"}>
-              <h1>Interprets</h1>
+            <a href={"#pictures"}>
+              <h1>📸</h1>
             </a>
           </li>
         </ul>

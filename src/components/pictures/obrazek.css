@@ -10,3 +10,8 @@
     object-fit: cover;
 }
 .obrazek:hover {transform:scale(2)}
+
+.row {
+    display: flex;
+}
+

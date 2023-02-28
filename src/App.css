@@ -62,38 +62,24 @@
     background-size: cover;
     background-repeat:no-repeat ;
     width: 100%;
-    border: 2px solid darkorange;
+    border: 2px solid #050503;
     margin: 0.5rem;
     border-radius: 10px;
+    font: italic small-caps bold 38px Georgia, sans-serif;
 }
 
 
-.menu-list li {
-    width: 100%;
-    flex: 1;
-    border: 2px solid darkorange;
-    border-radius: 10px;
-    margin: 0.5rem;
-    height: 6rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: rgba(10, 22, 40, 0.69);
-    font: italic small-caps bold 44px Georgia, sans-serif;
-}
 
 .menu-list a {
     width: 100%;
     flex: 1;
-
-
 }
 
 
 .menu-list h1 {
     width: 100%;
     font-size: 2rem;
-    color: darkorange;
+    color: #132a79;
 }
 
 .music {
