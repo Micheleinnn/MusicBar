@@ -90,7 +90,7 @@
     width: 15px;
     height: 15px;
     background: #fdb311;
-    box-shadow: 0 0 0 5px #fab829, 0 0 0 10px #eebb4d, 0 0 0 15px #efd7a2, 0 0 0 15px #eabf61
+    box-shadow: 0 0 0 5px #fab829, 0 0 0 10px #eebb4d, 0 0 0 15px #f3d187, 0 0 0 15px #eabf61
 
 }
 
@@ -125,7 +125,7 @@
     border-radius: 50%;
     width: 15px;
     height: 15px;
-    background: #cf0ffa;
-    box-shadow: 0 0 0 5px #c72bea, 0 0 0 10px #d567ee, 0 0 0 15px #d881ec, 0 0 0 15px #cf37f1
+    background: #fd1919;
+    box-shadow: 0 0 0 5px #f54f4f, 0 0 0 10px #fd7878, 0 0 0 15px #f8b7b7, 0 0 0 15px #ff6767
 
 }
