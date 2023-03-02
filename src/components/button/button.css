@@ -1,12 +1,14 @@
 .big-button {
-    border-radius: 8px;
-    border: 10px solid transparent;
-
+    z-index: 100;
     font: italic small-caps bold 28px Georgia, sans-serif;
-    background-image: url("../public/pozadi/R.jfif");
+    background-image: url("../../../public/pozadi/R.jfif");
     cursor: pointer;
     transition: border-color 0.25s;
-
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 8px;
+    border: 10px solid transparent;
+    position: relative;
 }
 
 .big-button:hover {

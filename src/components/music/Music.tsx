@@ -1,6 +1,6 @@
 import React from "react";
-
-const Pisnicka = ({ id_stylu, zdrojova_url, nazev_zanru }) => {
+import "./music.css";
+const Music = ({ id_stylu, zdrojova_url, nazev_zanru }) => {
   return (
     <article className={"genre"} id={id_stylu}>
       <h2>{nazev_zanru}</h2>
@@ -12,4 +12,4 @@ const Pisnicka = ({ id_stylu, zdrojova_url, nazev_zanru }) => {
   );
 };
 
-export default Pisnicka;
+export default Music;
