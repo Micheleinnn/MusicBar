@@ -13,6 +13,8 @@ import Button from "./components/button/Button";
 import Parallax2 from "./components/parallax2/Parallax2";
 import Parallax3 from "./components/parallax3/Parallax3";
 import Header from "./components/header/Header";
+import Iconbar from "./components/iconbar/Iconbar";
+
 const App = () => {
   return (
     <main className="app">
@@ -56,6 +58,8 @@ const App = () => {
       <Parallax2 />
 
       <Parallax3 />
+
+      <Iconbar />
 
       <a href="tel:00420-605-263-268">Call Me</a>
     </main>

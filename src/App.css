@@ -6,16 +6,13 @@
     padding: 1rem;
     text-align: center;
     background-color: #1b4161;
+    border-left-style: dotted;
+    border-right-style: dotted;
+border-radius: 30%;
+
 
 }
 
-.pictures {
-    max-width: 1280px;
-    width: 100%;
-    flex: 1;
-    font-size: 1rem;
-    padding: 1rem;
-}
 
 
 @media (min-width: 576px) {
@@ -42,20 +39,6 @@
     height: 100%;
 }
 
-
-.music {
-    width: 100%;
-    flex: 1;
-    font: italic small-caps bold 44px Georgia, sans-serif;
-
-}
-
-@media (min-width: 768px) {
-    .music {
-        display: flex;
-        flex-wrap: wrap;
-    }
-}
 
 
 

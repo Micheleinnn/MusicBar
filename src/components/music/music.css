@@ -1,5 +1,19 @@
 
 
+.music {
+    width: 100%;
+    flex: 1;
+    font: italic small-caps bold 44px Georgia, sans-serif;
+
+}
+
+@media (min-width: 768px) {
+    .music {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
 .genre {
     width: 100%;
     flex: 1;

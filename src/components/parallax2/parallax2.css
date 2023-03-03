@@ -119,7 +119,7 @@ p a {
 
 p a:hover {
     opacity: 1;
-    text-decoration: underline;
+
 }
 .container:hover .meta{
     transform: translateY(5px);
