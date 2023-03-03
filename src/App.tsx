@@ -10,6 +10,8 @@ import History from "./components/history/History";
 import Parallax from "./components/parallax/Parallax";
 import MenuList from "./components/menu-list/Menu-list";
 import Button from "./components/button/Button";
+import Parallax2 from "./components/parallax2/Parallax2";
+import Parallax3 from "./components/parallax3/Parallax3";
 
 const App = () => {
   return (
@@ -49,6 +51,10 @@ const App = () => {
       <Parallax />
 
       <History />
+
+      <Parallax2 />
+
+      <Parallax3 />
 
       <a href="tel:00420-605-263-268">Call Me</a>
     </main>

@@ -1,5 +1,5 @@
 .big-button {
-    z-index: 100;
+    z-index: 11;
     font: italic small-caps bold 28px Georgia, sans-serif;
     background-image: url("../../../public/pozadi/R.jfif");
     cursor: pointer;
