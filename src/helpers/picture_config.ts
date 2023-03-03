@@ -45,4 +45,12 @@ export const pole_obrazku = [
     zdrojova_url: "/pictures/oR.jfif",
     nazev_obrazku: "punkova hudebni skupina",
   },
+  {
+    zdrojova_url: "/pictures/Billieg.jpg",
+    nazev_obrazku: "Billie party girl",
+  },
+  {
+    zdrojova_url: "/pictures/partyg.jpg",
+    nazev_obrazku: "laser deep house party",
+  },
 ];

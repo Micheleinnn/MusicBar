@@ -6,8 +6,7 @@
     transition: border-color 0.25s;
     background-size: cover;
     background-repeat: no-repeat;
-    border-radius: 8px;
-    border: 10px solid transparent;
+    border-radius: 25px;
     position: relative;
 }
 

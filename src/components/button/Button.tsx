@@ -7,7 +7,7 @@ const Button = () => {
       href={"https://www.w3schools.com/html/html_images_background.asp"}
       target="_blank"
     >
-      Push Me
+      ✨
     </a>
   );
 };

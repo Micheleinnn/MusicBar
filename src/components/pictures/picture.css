@@ -1,9 +1,11 @@
 
 .obrazek {
-    width: 20%;
-    height: auto;
-    margin: auto;
     display: flex;
+    margin: 55px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 33.33%;
+    padding: 5px;
 }
 .obrazek img{
     flex: 33.33%;

@@ -1,4 +1,16 @@
 
+
+.rings {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+}
+
+
+
 .ring {
     position: relative;
     width: 150px;
@@ -89,8 +101,8 @@
     border-radius: 50%;
     width: 15px;
     height: 15px;
-    background: #fdb311;
-    box-shadow: 0 0 0 5px #fab829, 0 0 0 10px #eebb4d, 0 0 0 15px #f3d187, 0 0 0 15px #eabf61
+    background: #0ef6f6;
+    box-shadow: 0 0 0 5px #28f1f1, 0 0 0 10px #53efef, 0 0 0 15px #89f5f5, 0 0 0 15px #70f3f3
 
 }
 

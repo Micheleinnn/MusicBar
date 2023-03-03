@@ -12,10 +12,11 @@ import MenuList from "./components/menu-list/Menu-list";
 import Button from "./components/button/Button";
 import Parallax2 from "./components/parallax2/Parallax2";
 import Parallax3 from "./components/parallax3/Parallax3";
-
+import Header from "./components/header/Header";
 const App = () => {
   return (
     <main className="app">
+      <Header />
       <MenuList />
       <h1>Music Bar🎶</h1>
 
