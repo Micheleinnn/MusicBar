@@ -8,11 +8,10 @@
     background-color: #1b4161;
     border-left-style: dotted;
     border-right-style: dotted;
-border-radius: 30%;
+    border-radius: 30%;
 
 
 }
-
 
 
 @media (min-width: 576px) {
