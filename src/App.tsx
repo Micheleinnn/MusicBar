@@ -1,5 +1,4 @@
 import React from "react";
-import "./App.css";
 import Music from "./components/music/Music";
 import { music } from "./helpers/music_config";
 import Picture from "./components/pictures/Picture";
@@ -14,7 +13,7 @@ import Parallax2 from "./components/parallax2/Parallax2";
 import Parallax3 from "./components/parallax3/Parallax3";
 import Header from "./components/header/Header";
 import Iconbar from "./components/iconbar/Iconbar";
-
+import "./App.css";
 const App = () => {
   return (
     <main className="app">

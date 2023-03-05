@@ -1,4 +1,6 @@
-
+* {
+    font-family: Tilt Prism, sans-serif;
+}
 
 :root {
     font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
@@ -40,7 +42,7 @@ h1 {
     position: relative;
     line-height: 1.1;
     color: darkorange;
-    font: italic small-caps bold 48px Georgia, sans-serif;
+    /*font: italic small-caps bold 48px Georgia, sans-serif;*/
 }
 
 

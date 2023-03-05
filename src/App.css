@@ -5,12 +5,10 @@
     margin: 0 auto;
     padding: 1rem;
     text-align: center;
-    background-color: #1b4161;
+    background-color: #050503;
     border-left-style: dotted;
     border-right-style: dotted;
     border-radius: 30%;
-
-
 }
 
 
@@ -38,7 +36,9 @@
     height: 100%;
 }
 
-
+* {
+    font-family: Tilt Prism, sans-serif;
+}
 
 
 

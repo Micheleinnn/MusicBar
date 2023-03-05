@@ -3,7 +3,7 @@
 .music {
     width: 100%;
     flex: 1;
-    font: italic small-caps bold 44px Georgia, sans-serif;
+    /*font: italic small-caps bold 44px Georgia, sans-serif;*/
 
 }
 
@@ -19,7 +19,7 @@
     flex: 1;
     font-size: 1.5rem;
     height: 20%;
-    border-radius: 10px;
+    border-radius: 35px;
     padding : 1rem
 }
 

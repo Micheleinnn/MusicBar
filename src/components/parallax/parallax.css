@@ -2,7 +2,7 @@
 *{
     box-sizing: border-box;
     padding: 0;
-    font-family: "JetBrains Mono ExtraBold", sans-serif;
+    /*font-family: "JetBrains Mono ExtraBold", sans-serif;*/
 }
 section:first-child{
     position: relative;
@@ -14,11 +14,11 @@ section .title{
     left: 50%;
     margin-top:-35.5px;
     margin-left: -91.4px;
-    font-family: 'Oswald', sans-serif;
+    /*font-family: 'Oswald', sans-serif;*/
     letter-spacing: 10px;
 }
 .title h1,h2{
-    font-family:'Oswald', sans-serif;
+    /*font-family:'Oswald', sans-serif;*/
     font-size:28px;
     font-weight:400;
     text-transform: uppercase;

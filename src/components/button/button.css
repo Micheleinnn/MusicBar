@@ -8,6 +8,7 @@
     background-repeat: no-repeat;
     border-radius: 25px;
     position: relative;
+    text-decoration: none;
 }
 
 .big-button:hover {
