@@ -3,25 +3,29 @@ import "./menu-list.css";
 
 const MenuList = () => {
   return (
-    <nav className={"navigace"}>
-      <ul className={"menu-list"}>
+    <header>
+      <input type="checkbox" id="menu-toggle" className="menu-toggle" />
+      <label htmlFor="menu-toggle" className="menu-btn">
+        <span className="menu-btn__burger"></span>
+      </label>
+      <ul className="nav-menu">
         <li>
-          <a href={"#music"}>
-            <h1>🎧</h1>
+          <a href="#music">
+            <h1>🎧Music</h1>
           </a>
         </li>
         <li>
-          <a href={"#history"}>
-            <h1>📃</h1>
+          <a href="#history">
+            <h1>📃history</h1>
           </a>
         </li>
         <li>
-          <a href={"#pictures"}>
-            <h1>📸</h1>
+          <a href="#pictures">
+            <h1>📸photos</h1>
           </a>
         </li>
       </ul>
-    </nav>
+    </header>
   );
 };
 

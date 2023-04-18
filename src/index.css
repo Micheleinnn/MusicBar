@@ -29,19 +29,17 @@ body {
     place-items: center;
     min-width: 320px;
     min-height: 100vh;
-    background-color: #e0d877;
+    background-color: white;
     border-block-width: 10px;
-    border-block-style: dotted;
-    border-left-style: dotted;
-    border-right-style: dotted;
-    border-radius: 30%;
-
+    /*border-radius: 30%;*/
+height: 100%
 }
 
 h1 {
+    font-size: 2rem;
     position: relative;
     line-height: 1.1;
-    color: darkorange;
+    color: #ffffff;
     /*font: italic small-caps bold 48px Georgia, sans-serif;*/
 }
 

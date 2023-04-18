@@ -1,44 +1,95 @@
-.navigace {
-    width: 70%;
-    flex: 1;
-    margin-bottom: 3rem;
-    margin: auto;
-}
-
-
 .menu-list {
     list-style: none;
     padding: 0;
-    display: inline-flex;
-    justify-content: space-evenly;
-    width: 100%;
-
+    width: 10%;
+    flex-direction: column;
 
 }
 
 .menu-list li {
-    background-image: url("../../../public/pozadi/R.jfif");
-    background-size: cover;
-    background-repeat:no-repeat ;
-    width: 50%;
-    border: 2px solid #050503;
+    color: black;
     margin: 0.5rem;
-    border-radius: 30px;
     font: italic small-caps bold 38px Georgia, sans-serif;
 }
 
-
-
 .menu-list a {
-    width: 100%;
-    flex: 1;
     text-decoration: none;
 }
 
-
 .menu-list h1 {
-    width: 100%;
     font-size: 2rem;
-    color: #132a79;
+    color: #ffffff;
+}
 
+/* Hamburger menu styles */
+.menu-toggle {
+    display: none;
+}
+
+.menu-btn {
+    display: block;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+}
+
+.menu-btn__burger {
+    display: block;
+    width: 30px;
+    height: 3px;
+    background-color: #ffffff;
+    position: relative;
+    transition: transform 0.3s ease-in-out;
+}
+
+.menu-btn__burger::before,
+.menu-btn__burger::after {
+    content: "";
+    position: absolute;
+    width: 30px;
+    height: 3px;
+    background-color: #ffffff;
+    transition: transform 0.3s ease-in-out;
+}
+
+.menu-btn__burger::before {
+    top: -9px;
+}
+
+.menu-btn__burger::after {
+    top: 9px;
+}
+
+.nav-menu {
+    width: 119px;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+}
+
+.nav-menu li {
+    opacity: 1;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.nav-menu li:hover {
+    opacity: 0.8;
+}
+
+/* Hide menu items when hamburger menu is checked */
+.menu-toggle:checked ~ .nav-menu li {
+    opacity: 0;
+}
+
+/* Transform burger icon to close icon when hamburger menu is checked */
+.menu-toggle:checked + .menu-btn .menu-btn__burger {
+    transform: rotate(45deg);
+}
+
+.menu-toggle:checked + .menu-btn .menu-btn__burger::before {
+    transform: rotate(-45deg) translate(-8px, 8px);
+}
+
+.menu-toggle:checked + .menu-btn .menu-btn__burger::after {
+    transform: rotate(45deg) translate(-8px, -8px);
 }

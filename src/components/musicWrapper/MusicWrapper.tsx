@@ -1,6 +1,6 @@
 import React from "react";
-import "./music.css";
-const Music = ({ id_stylu, zdrojova_url, nazev_zanru }) => {
+import "./musicWrapper.css";
+const MusicWrapper = ({ id_stylu, zdrojova_url, nazev_zanru }) => {
   return (
     <article className={"genre"} id={id_stylu}>
       <h2>{nazev_zanru}</h2>
@@ -12,4 +12,4 @@ const Music = ({ id_stylu, zdrojova_url, nazev_zanru }) => {
   );
 };
 
-export default Music;
+export default MusicWrapper;

@@ -1,6 +1,6 @@
 import React from "react";
-import "./iconbar.css";
-const Iconbar = ({}) => {
+import "./footer.css";
+const Footer = ({}) => {
   return (
     <div>
       <a href="#" className="facebook">
@@ -22,4 +22,4 @@ const Iconbar = ({}) => {
   );
 };
 
-export default Iconbar;
+export default Footer;
