@@ -48,7 +48,6 @@ const App = () => {
 
       <History />
       <Footer />
-      <a href="tel:00420-605-263-268">Call Me</a>
     </main>
   );
 };

@@ -1,6 +1,21 @@
 .history {
-    border: 1px solid blue;
+    border: 1px solid #050503;
     padding: 0.6em 1.2em;
-    background-color: #1a1a1a;
-    font-size:12px;
+    background-color: #050503;
+    font-size: 22px;
+    overflow: hidden;
+}
+
+.scrolling-text {
+    animation: scrollText 22s linear infinite; /* Adjust duration and timing function as desired */
+    white-space: nowrap;
+}
+
+@keyframes scrollText {
+    from {
+        transform: translateX(100%);
+    }
+    to {
+        transform: translateX(-100%);
+    }
 }

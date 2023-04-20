@@ -5,10 +5,10 @@
     font-size: 1rem;
     padding: 1rem;
     filter: hue-rotate(90deg);
-    background-repeat: repeat-x;
+    /*background-repeat: repeat-x;*/
     display: flex;
     flex-wrap: wrap;
-    border-radius: 15%;
+    /*border-radius: 15%;*/
     z-index: 10;
 }
 
@@ -24,10 +24,10 @@
 
 .obrazek img {
     flex: 1;
-    width: 20%;
-    height: 100%;
+    width: 21%;
+    height: 82%;
     object-fit: cover;
-    padding: 8px;
+    padding: 18px;
     display: flex
 }
 

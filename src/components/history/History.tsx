@@ -4,7 +4,7 @@ const History = () => {
   return (
     <section className={"history"} id={"history"}>
       <h2>Biography</h2>
-      <p>
+      <p className="scrolling-text">
         Billie Eilish Pirate Baird O'Connell is an American musician, singer and
         actress from Los Angeles. She performed hit songs such as "Bad Guy" and
         "No Time to Die," which was used in the James Bond film of the same
@@ -12,7 +12,7 @@ const History = () => {
         Rodrick Rules and X-Men: Apocalypse.
       </p>
 
-      <p>
+      <p className="scrolling-text">
         {" "}
         bbn$ Born Alexander Gumuchian in Vancouver, he dabbled with piano and
         percussion as a child, but favored swimming over music. That changed
@@ -30,7 +30,7 @@ const History = () => {
         EP, Baby Gravy, arrived.
       </p>
 
-      <p>
+      <p className="scrolling-text">
         The Black Eyed Peas date back to 1988, when eighth-graders William Adams
         (will.i.am) and Allan Pineda (apl.de.ap) met and began rapping and
         performing together around Los Angeles. The pair signed to Ruthless
