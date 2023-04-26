@@ -13,6 +13,7 @@
 }
 
 .obrazek {
+    position: relative;
     display: flex;
     margin: 5px;
     border: 1px solid #ccc;
@@ -37,5 +38,25 @@
 
 .row {
     display: flex;
+}
+
+.obrazek h2 {
+    /* styly pro nadpis */
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    opacity:1%;
+    transition: opacity 3s ease;
+}
+
+.obrazek:hover h2 {
+    opacity: 1;
 }
 

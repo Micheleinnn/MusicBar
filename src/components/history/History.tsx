@@ -3,7 +3,6 @@ import "./history.css";
 const History = () => {
   return (
     <section className={"history"} id={"history"}>
-      <h2>Biography</h2>
       <p className="scrolling-text">
         Billie Eilish Pirate Baird O'Connell is an American musician, singer and
         actress from Los Angeles. She performed hit songs such as "Bad Guy" and

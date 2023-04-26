@@ -1,6 +1,4 @@
 .header {
-    /*background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRM4qbcxp051-y_b24FWnASMK2P8mV0byY4AQ&usqp=CAU");*/
-    /*background-repeat: no-repeat;*/
     display: flex;
     align-items: inherit;
     flex-direction: row-reverse;
@@ -10,23 +8,32 @@
 }
 
 .video-container {
-    margin-left: 17rem;
+    margin-left: 22rem;
     margin-top: 2rem;
 }
 
+@media screen and (max-width: 768px) {
+    /* Styly pro obrazovky s maximální šířkou 768px */
+}
+
+/* Styl pro obrazovky s maximální šířkou 480px */
+@media screen and (max-width: 360px) {
+    /* Styly pro obrazovky s maximální šířkou 480px */
+}
+
+
 .image-container {
     display: flex;
-
 }
-.avatar {
 
+.avatar {
     background-image: url("https://freefrontend.com/assets/img/css-avatars/avatar-with-cut-off-border-concept.jpg");
 }
 
 .image {
+    position: absolute;
     border: white;
     background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRM4qbcxp051-y_b24FWnASMK2P8mV0byY4AQ&usqp=CAU");
-    /*background-repeat: no-repeat;*/
     background-size: cover;
     background-position: left;
     width: 100px;

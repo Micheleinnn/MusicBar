@@ -3,8 +3,8 @@ import MusicWrapper from "./components/musicWrapper/MusicWrapper";
 import { music } from "./helpers/music_config";
 import Picture from "./components/pictures/Picture";
 import { pole_obrazku } from "./helpers/picture_config";
-import { rings_configurate } from "./helpers/rings_configurate";
-import Ring from "./components/rings/Ring";
+// import { rings_configurate } from "./helpers/rings_configurate";
+// import Ring from "./components/rings/Ring";
 import History from "./components/history/History";
 import MenuList from "./components/menu-list/Menu-list";
 import Button from "./components/button/Button";
@@ -17,11 +17,12 @@ const App = () => {
     <main className="app">
       <Header />
       <MenuList />
-      <h1>Music Bar🎶</h1>
+      <h1>🎧Music</h1>
 
       <section className={"music"} id={"music"}>
         {music.map((genre) => (
           <MusicWrapper
+            url_obrazku={genre.image_url}
             zdrojova_url={genre.src}
             nazev_zanru={genre.header}
             id_stylu={genre.id}
@@ -29,6 +30,8 @@ const App = () => {
           />
         ))}
       </section>
+
+      <h1>📸Photos</h1>
 
       <section className={"pictures"} id={"pictures"}>
         {pole_obrazku.map((obrazek) => (
@@ -40,11 +43,13 @@ const App = () => {
         ))}
       </section>
       <Button />
-      <section className={"rings"}>
-        {rings_configurate.map((ring) => (
-          <Ring rings={ring.ring} key={ring.ring} />
-        ))}
-      </section>
+      {/*<section className={"rings"}>*/}
+      {/*  {rings_configurate.map((ring) => (*/}
+      {/*    <Ring rings={ring.ring} key={ring.ring} />*/}
+      {/*  ))}*/}
+      {/*</section>*/}
+
+      <h1>📃Biography</h1>
 
       <History />
       <Footer />
