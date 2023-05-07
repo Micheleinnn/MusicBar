@@ -1,25 +1,28 @@
-.menu-list {
-    list-style: none;
-    padding: 0;
-    width: 10%;
-    flex-direction: column;
+/*.menu-list {*/
+/*    list-style: none;*/
+/*    padding: 0;*/
+/*    width: 10%;*/
+/*    flex-direction: column;*/
 
-}
+/*}*/
 
-.menu-list li {
-    color: black;
-    margin: 0.5rem;
-    font: italic small-caps bold 38px Georgia, sans-serif;
-}
+/*.menu-list li {*/
+/*    color: black;*/
+/*    margin: 0.5rem;*/
+/*    font: italic small-caps bold 38px Georgia, sans-serif;*/
+/*    text-decoration: #050503;*/
+/*}*/
 
-.menu-list a {
-    text-decoration: none;
-}
+/*.menu-list a {*/
+/*    text-decoration: none;*/
+/*}*/
 
-.menu-list h1 {
-    font-size: 2rem;
-    color: #ffffff;
-}
+/*.menu-list h1 {*/
+/*    font-size: 2rem;*/
+/*    color: #ffffff;*/
+/*    text-decoration: black;*/
+/*    text-underline: none;*/
+/*}*/
 
 /* Hamburger menu styles */
 .menu-toggle {
@@ -68,8 +71,7 @@
 }
 
 .nav-menu li {
-    opacity: 1;
-    transition: opacity 0.3s ease-in-out;
+    text-decoration: black;
 }
 
 .nav-menu li:hover {

@@ -13,7 +13,8 @@
 }
 /*//nastaveni vsech obrazku vcetne popisu a prehravani*/
 .genre {
-    background-color: #747bff;
+
+    background-color: #000000;
     position: relative;
     width: 100%;
     flex: 1;
@@ -40,7 +41,7 @@
     justify-content: center;
     align-items: center;
     height: 180px;
-    width: 180px;
+    width: 199px;
     overflow: hidden;
 }
 

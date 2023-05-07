@@ -4,12 +4,9 @@
     flex: 3;
     font-size: 1rem;
     padding: 1rem;
-    filter: hue-rotate(90deg);
-    /*background-repeat: repeat-x;*/
     display: flex;
     flex-wrap: wrap;
-    /*border-radius: 15%;*/
-    z-index: 10;
+
 }
 
 .obrazek {
@@ -33,7 +30,9 @@
 }
 
 .obrazek:hover {
+    display: flex;
     transform: scale(3)
+    position: absolute;
 }
 
 .row {

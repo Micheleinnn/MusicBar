@@ -2,10 +2,10 @@ import React, { useState } from "react";
 import "./picture.css";
 
 const Obrazek = ({ zdrojova_url, nazev_obrazku }) => {
-  const [showNadpis, setShowNadpis] = useState(false);
+  const [showNadpis, setShowNadpis] = useState(true);
 
   const handleMouseEnter = () => {
-    setShowNadpis(true);
+    setShowNadpis(false);
   };
 
   const handleMouseLeave = () => {

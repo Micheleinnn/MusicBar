@@ -16,7 +16,7 @@ const MenuList = () => {
         </li>
         <li>
           <a href="#history">
-            <h1>📃Biography</h1>
+            <h1>📃Biogr.</h1>
           </a>
         </li>
         <li>
